@@ -1,6 +1,6 @@
 let age: number = 25
 let score: number= 0
-let scoreAny= "good"
+let scoreAny= "0"
 let userName: string = ""
 let isAdmin: boolean = false
 function service ( n: number, s: number|null, sAny: any, u:string, b:boolean){
