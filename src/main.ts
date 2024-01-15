@@ -4,9 +4,7 @@ let scoreAny = "0"
 let userName: string = ""
 let isAdmin: boolean = false
 const list = [15, 6, 3213, 9, 0, 12, 8464 , 1, 1264, 481, 186, 1031, 194];
-// Удалите из списка два младших числа и четыре старших числа.
-// Удалить все числа, которые делятся на 4.
-// Сложите все числа.
+
 function myList(l:number[]){
     const listSort=l.sort((a, b) => b - a)
 console.log(listSort)
@@ -19,6 +17,7 @@ console.log(listRemoveFirst2andLast4)
     const summe:number = listFilter.reduce((acc,curr) => acc+curr,0)
     console.log("Die Ergebnis ist: "+ summe)
 }
+myList(list);
 function service(n: number, s: number | null, sAny: any, u: string, b: boolean) {
 
     for (let i = 0; i <= n; i++) {
