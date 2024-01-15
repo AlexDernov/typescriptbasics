@@ -9,6 +9,7 @@ function service(n: number, s: number | null, sAny: any, u: string, b: boolean) 
     for (let i = 0; i <= n; i++) {
         console.log(i)
     }
+
     if (n > 18) {
         console.log("You are eligible for voting.");
     } else {
